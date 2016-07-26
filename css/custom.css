@@ -1,12 +1,12 @@
 <<<<<<< HEAD
 @font-face {
     font-family: Moon Light;
-    src: url("/css/Moon Light.otf");
+    src: url('/css/Moon Light.otf');
 }
 
 @font-face {
     font-family: "Geomanist Light";
-    src: url("/css/Geomanist-Light.otf");
+    src: url('/css/Geomanist-Light.otf');
 }
 .customfont {
     text-decoration: none;
