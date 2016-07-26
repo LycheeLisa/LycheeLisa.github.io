@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 @font-face {
-    font-family: Moon Light;
+    font-family: "Moon Light";
     src: url('/css/Moon Light.otf');
 }
 
@@ -12,7 +12,7 @@
     text-decoration: none;
     color: #b1917c;
     font-size: 25px;
-    font-family: Moon Light, Helvetica, sans-serif;
+    font-family: "Moon Light", Helvetica, sans-serif;
 }
 .dropdown-menu > li > a {
     color: #324e6e;
