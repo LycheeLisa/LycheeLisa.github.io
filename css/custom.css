@@ -30,7 +30,7 @@
     font-size: 20px;
     font-weight: 700;
     color: #324e6e;
-    font-family: Moon Light, Helvetica, sans-serif;
+    font-family: "Moon Light", Helvetica, sans-serif;
 }
 
 .customheadingfont {
@@ -38,10 +38,10 @@
     font-size: 70px;
     font-weight: 100;
     color: #324e6e;
-    font-family: Moon Light, Helvetica, sans-serif;
+    font-family: "Moon Light", Helvetica, sans-serif;
 }
 .secondaryheadingfont {
-    font-family: Moon Light, Arial, sans-serif;
+    font-family: "Moon Light", Arial, sans-serif;
     font-weight: 100;
     color: #b1917c;
     font-size: 35px;
@@ -72,7 +72,7 @@ h2{
     margin-top: 50px;
 }
 .parafont{
-    font-family: Geomanist Light, Arial, sans-serif;
+    font-family: "Geomanist Light", Arial, sans-serif;
     font-weight: 400;
     color: #324e6e;
     font-size: 20px;
