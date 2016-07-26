@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Moon Light;
+    src: url("../../Moon Light.otf");
+}
+
+@font-face {
+    font-family: "Geomanist Light";
+    src: url("../../Geomanist-Light.otf");
+}
+.customfont {
+    text-decoration: none;
+    color: #b1917c;
+    font-size: 25px;
+    font-family: Moon Light, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+.headingfont {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #324e6e;
+    font-family: Moon Light, Helvetica, sans-serif;
+}
+
+.customheadingfont {
+    text-decoration: none;
+    font-size: 70px;
+    font-weight: 100;
+    color: #324e6e;
+    font-family: Moon Light, Helvetica, sans-serif;
+}
+.secondaryheadingfont {
+    font-family: "Geomanist Light", Arial, sans-serif;
+    font-weight: 700;
+    color: #b1917c;
+    font-size: 25px;
+    padding-left: 50px;
+}
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.banner img {
+    width: 100%;
+}
+.navigationbar ul {
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+    z-index: -1;
+}
+
+.navigationbar li {
+    padding: 20px;
+    text-align: center;
+    display: inline;
+}
+.navigationbar a{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #b1917c;
+    font-size: 20px;
+    font-family: Moon Light, Helvetica, sans-serif;
+}
+.profilepic img{
+    z-index: 1;
+    margin: auto;
+    display: block;
+    width: 20%;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+.firstsentence {
+    font-family: "Geomanist Light", Arial, sans-serif;
+    font-weight: 700;
+    color: #324e6e;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.writingsection div {
+    margin-top: 50px;
+}
+.parafont{
+    font-family: Geomanist Light, Arial, sans-serif;
+    font-weight: 400;
+    color: #324e6e;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.5;
+}
+.center{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left img{
+    width: 40%;
+}
+.portfolio {
+    padding-top: 30px;
+    table-layout: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+.heroimage{
+    width: 100%;
+    height: auto;
+}
+.portfolio tr{
+    width: 50%;
+}
+
+.portfolio td {
+    width: 50%;
+    overflow: hidden;
+}
+.logo {
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.right {
+    text-align: right;
+}
