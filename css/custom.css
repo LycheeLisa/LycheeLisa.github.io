@@ -25,14 +25,6 @@
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #324e6e;
 }
-.headingfont {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 700;
-    color: #324e6e;
-    font-family: "Moon Light", Helvetica, sans-serif;
-}
-
 .customheadingfont {
     text-decoration: none;
     font-size: 70px;
@@ -66,7 +58,7 @@ h2{
     font-weight: 700;
     color: #324e6e;
     font-size: 25px;
-    padding-left: 50px;
+    padding: 10px 0 0 30px;
 }
 .writingsection div {
     margin-top: 50px;
@@ -164,4 +156,45 @@ li:hover{ background-color: #e7e7e7;
 }
 .right{
     padding-right: 120px;
+}
+.jumbotron {
+    background: url("coverphoto.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.jumbotron h1{
+    color: #324e6e;
+    font-size: 70px;
+    font-weight: 100;
+    text-align: left;
+    font-family: "Moon Light", Arial, sans-serif;
+    padding: 40px 0 0 40px;
+}
+
+.jumbosection{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 10px 10px 10px;
+    margin-top: 5%;
+    margin-left: 63%;
+    margin-right: 8%;
+}
+
+.jumbofont{
+    font-family: "Geomanist Light", Arial, sans-serif;
+    font-weight: 400;
+    color: #324e6e;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5;
+}
+
+.beforescroll{
+    opacity: 0;
+}
+
+.afterscroll{
+    opacity: 1;
+    transition: 0.5s ease-in;
 }
