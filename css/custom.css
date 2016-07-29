@@ -57,7 +57,7 @@ h2{
     font-family: "Geomanist Light", Arial, sans-serif;
     font-weight: 700;
     color: #324e6e;
-    font-size: 25px;
+    font-size: 1.5vw;
     padding: 10px 0 0 30px;
 }
 .writingsection div {
@@ -165,26 +165,23 @@ li:hover{ background-color: #e7e7e7;
 
 .jumbotron h1{
     color: #324e6e;
-    font-size: 70px;
+    font-size: 4vw;
     font-weight: 100;
     text-align: left;
     font-family: "Moon Light", Arial, sans-serif;
     padding: 40px 0 0 40px;
 }
 
-.jumbosection{
+.jumbosection {
     background: rgba(255, 255, 255, 0.8);
     padding: 10px 10px 10px 10px;
     margin-top: 5%;
     margin-left: 63%;
     margin-right: 8%;
 }
-
 .jumbofont{
     font-family: "Geomanist Light", Arial, sans-serif;
-    font-weight: 400;
     color: #324e6e;
-    font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
     line-height: 1.5;
@@ -197,4 +194,8 @@ li:hover{ background-color: #e7e7e7;
 .afterscroll{
     opacity: 1;
     transition: 0.5s ease-in;
+}
+
+.jumbotron p{
+    font-size: 2.5vh;
 }
