@@ -1,3 +1,13 @@
+@media screen and (min-width: 1000px){
+    .navbar-brand{
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    .table-responsive {
+        display: none;
+    }
+}
 @font-face {
     font-family: "Moon Light";
     src: url('/css/Moon Light.otf');
@@ -12,6 +22,9 @@
     color: #b1917c;
     font-size: 25px;
     font-family: "Moon Light", Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
 }
 .dropdown-menu > li > a {
     color: #324e6e;
@@ -40,11 +53,15 @@
     padding-top: 40px;
     padding-bottom: 30px;
 }
-.profilepic img{
-    z-index: 1;
-    margin: auto;
-    display: block;
-    width: 20%;
+@media screen and (max-width: 480px){
+    .secondaryheadingfont {
+        font-family: "Moon Light", Arial, sans-serif;
+        font-weight: 100;
+        color: #b1917c;
+        font-size: 4.5vh;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 h1 {
     text-align: center;
@@ -79,6 +96,11 @@ hr{
     margin-top: 50px;
     border-color: rgba(50, 78, 110, 0.45);
     max-width: 90%;
+}
+@media screen and (max-width: 480px){
+    hr{
+        display: none;
+    }
 }
 td{
     padding-bottom: 60px;
@@ -148,7 +170,7 @@ tr.bordered{
 }
 
 .copyright{
-    font-size: 1vw;
+    font-size: 2vh;
     color: #324e6e;
     padding-top: 20px;
 }
@@ -162,7 +184,13 @@ li:hover{ background-color: #e7e7e7;
     background-size: cover;
     height: 100vh;
 }
-
+@media screen and (max-width:480px) {
+    .jumbotron {
+        background: url("mobilecover.png");
+        background-size: cover;
+        height: 100vh;
+    }
+}
 .jumbotron h1{
     color: #324e6e;
     font-size: 4vw;
@@ -170,6 +198,11 @@ li:hover{ background-color: #e7e7e7;
     text-align: left;
     font-family: "Moon Light", Arial, sans-serif;
     padding: 40px 0 0 40px;
+}
+@media screen and (max-width: 480px){
+    .jumbotron h1{
+        display: none;
+    }
 }
 
 .jumbosection {
@@ -179,6 +212,15 @@ li:hover{ background-color: #e7e7e7;
     margin-left: 63%;
     margin-right: 8%;
 }
+@media screen and (max-width:480px) {
+    .jumbosection {
+        background: rgba(255, 255, 255, 0.8);
+        margin-top: 75%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
 .jumbofont{
     font-family: "Geomanist Light", Arial, sans-serif;
     color: #324e6e;
@@ -186,7 +228,16 @@ li:hover{ background-color: #e7e7e7;
     padding-right: 30px;
     line-height: 1.5;
 }
-
+/**@media screen and (max-width:480px) {
+    .jumbofont{
+        font-family: "Geomanist Light", Arial, sans-serif;
+        color: #324e6e;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 1.5;
+        font-size: 2vh;
+    }
+}**/
 .beforescroll{
     opacity: 0;
 }
@@ -198,4 +249,34 @@ li:hover{ background-color: #e7e7e7;
 
 .jumbotron p{
     font-size: 2.5vh;
+}
+/** Movile Specific CSS**/
+@media screen and (max-width: 480px) {
+    .mobileport img {
+        margin-top: 5vh;
+    }
+
+    .mobileport td{
+        padding-bottom: 2vh;
+    }
+    .parafont{
+        font-family: "Geomanist Light", Arial, sans-serif;
+        font-weight: 400;
+        color: #324e6e;
+        font-size: 20px;
+        padding-left: 4vh;
+        padding-right: 4vh;
+        line-height: 1.5;
+    }
+    .navbar-brand {
+        float: left;
+        padding: 5px 15px;
+        font-size: 3vh;
+        line-height: 10px;
+        height: 30px;
+    }
+    .mobileshow{
+        display: block;
+        margin-top: 2vh;
+    }
 }
