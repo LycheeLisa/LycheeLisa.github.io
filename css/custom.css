@@ -286,4 +286,11 @@ li:hover{ background-color: #e7e7e7;
         font-size: 3.5vh;
         padding: 0 4vh 0 4vh;
     }
+    .jumbofont{
+        font-family: "Geomanist Light", Arial, sans-serif;
+        color: #324e6e;
+        padding: 0 4vh 0 4vh;
+        line-height: 1.5;
+        font-size: 2vh;
+    }
 }
