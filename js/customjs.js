@@ -5,8 +5,16 @@ $(document).ready(function() {
     var div = $("#About");
     var pos = div.position();
     $(window).scroll(function () {
-        /**var windowpos = $(window).scrollTop();
-        if (windowpos >= (pos.top + 10)) {*/
         $(div).addClass("afterscroll");
+    });
+    $(".showmore").click(function () {
+        if ($(this).text() == "Show less") {
+            $(this).prev().addClass("showextra");
+            $(this).html("Show more...");
+        }
+        else {
+            $(this).prev().removeClass("showextra");
+            $(this).html("Show less");
+        }
     });
 });

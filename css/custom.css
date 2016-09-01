@@ -228,16 +228,6 @@ li:hover{ background-color: #e7e7e7;
     padding-right: 30px;
     line-height: 1.5;
 }
-/**@media screen and (max-width:480px) {
-    .jumbofont{
-        font-family: "Geomanist Light", Arial, sans-serif;
-        color: #324e6e;
-        padding-left: 30px;
-        padding-right: 30px;
-        line-height: 1.5;
-        font-size: 2vh;
-    }
-}**/
 .beforescroll{
     opacity: 0;
 }
@@ -268,7 +258,7 @@ li:hover{ background-color: #e7e7e7;
         font-family: "Geomanist Light", Arial, sans-serif;
         font-weight: 400;
         color: #324e6e;
-        font-size: 20px;
+        font-size: 2.5vh;
         padding-left: 4vh;
         padding-right: 4vh;
         line-height: 1.5;
@@ -286,8 +276,8 @@ li:hover{ background-color: #e7e7e7;
     }
     .firstsentence {
         font-family: "Geomanist Light", Arial, sans-serif;
-        font-weight: 700;
-        color: #324e6e;
+        font-weight: 400;
+        color: #b1917c;
         font-size: 3.5vh;
         padding: 0 4vh 0 4vh;
     }
@@ -296,7 +286,7 @@ li:hover{ background-color: #e7e7e7;
         color: #324e6e;
         padding: 0 4vh 0 4vh;
         line-height: 1.5;
-        font-size: 2vh;
+        font-size: 2.5vh;
     }
     .secondaryheadingfont {
         font-family: "Moon Light", Arial, sans-serif;
@@ -308,5 +298,12 @@ li:hover{ background-color: #e7e7e7;
     }
     .center{
         margin-top: 4vh;
+    }
+    .showextra{
+        display: none;
+    }
+    span.showmore{
+        display:block;
+        color: #b1917c;
     }
 }
