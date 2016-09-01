@@ -250,6 +250,11 @@ li:hover{ background-color: #e7e7e7;
 .jumbotron p{
     font-size: 2.5vh;
 }
+@media screen and (min-width: 1000px){
+    .mobileport{
+        display: none;
+    }
+}
 /** Movile Specific CSS**/
 @media screen and (max-width: 480px) {
     .mobileport img {
