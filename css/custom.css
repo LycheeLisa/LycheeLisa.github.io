@@ -176,9 +176,6 @@ tr.bordered{
 }
 li:hover{ background-color: #e7e7e7;
 }
-.right{
-    padding-right: 120px;
-}
 .jumbotron {
     background: url("coverphoto1.jpg");
     background-size: cover;
