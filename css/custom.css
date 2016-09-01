@@ -298,4 +298,15 @@ li:hover{ background-color: #e7e7e7;
         line-height: 1.5;
         font-size: 2vh;
     }
+    .secondaryheadingfont {
+        font-family: "Moon Light", Arial, sans-serif;
+        font-weight: 100;
+        color: #b1917c;
+        font-size: 35px;
+        padding: 0;
+        margin: 0 5px 0 5px;
+    }
+    .center{
+        margin-top: 4vh;
+    }
 }
