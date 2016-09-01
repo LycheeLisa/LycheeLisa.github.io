@@ -273,10 +273,17 @@ li:hover{ background-color: #e7e7e7;
         padding: 5px 15px;
         font-size: 3vh;
         line-height: 10px;
-        height: 30px;
+        height: 3vh;
     }
     .mobileshow{
         display: block;
         margin-top: 2vh;
+    }
+    .firstsentence {
+        font-family: "Geomanist Light", Arial, sans-serif;
+        font-weight: 700;
+        color: #324e6e;
+        font-size: 3.5vh;
+        padding: 0 4vh 0 4vh;
     }
 }
